@@ -51,6 +51,6 @@ module.exports = {
     return RNDeviceInfo.deviceCountry;
   },
   getIsTestFlightBeta: function() {
-    return RNDeviceInfo.isTestFlightBeta;
+    return RNDeviceInfo.isTestFlightBeta === "sandboxReceipt";
   }
 };

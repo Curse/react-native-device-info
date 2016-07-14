@@ -169,7 +169,7 @@ RCT_EXPORT_MODULE()
              @"systemManufacturer": @"Apple",
              @"userAgent": self.userAgent,
              @"timezone": self.timezone,
-             @"isTestFlightBeta": [[[[NSBundle mainBundle] appStoreReceiptURL] lastPathComponent] isEqualToString:@"sandboxReceipt"]
+             @"isTestFlightBeta": [[[NSBundle mainBundle] appStoreReceiptURL] lastPathComponent]
              };
 }
 

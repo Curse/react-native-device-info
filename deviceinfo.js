@@ -50,4 +50,7 @@ module.exports = {
   getDeviceCountry: function() {
     return RNDeviceInfo.deviceCountry;
   },
+  getIsTestFlightBeta: function() {
+    return RNDeviceInfo.isTestFlightBeta;
+  }
 };
